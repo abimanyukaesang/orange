@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-CONTACT-US" transform="translate(-279.000000, -1168.000000)">
+            <g id="Group" transform="translate(279.000000, 1074.000000)">
+                <g id="Page-1" transform="translate(0.000000, 94.000000)">
+                    <polygon id="Fill-1" fill="#FFFFFF" points="0 40 40 40 40 0 0 0"></polygon>
+                    <path d="M17.1709,20.8564 L19.9999,23.2914 L22.8299,20.8564 L33.6899,30.2014 L6.3109,30.2014 L17.1709,20.8564 Z M19.9999,21.9724 L5.8529,9.7984 L34.1489,9.7984 L19.9999,21.9724 Z M5.2539,29.7014 L5.2539,10.6024 L16.4039,20.1974 L5.2699,29.7784 C5.2649,29.7524 5.2539,29.7284 5.2539,29.7014 L5.2539,29.7014 Z M34.7309,29.7774 L23.5959,20.1974 L34.7469,10.6034 L34.7469,29.7014 C34.7469,29.7284 34.7349,29.7524 34.7309,29.7774 L34.7309,29.7774 Z M34.2469,8.7984 L5.7539,8.7984 C4.9269,8.7984 4.2539,9.4714 4.2539,10.2984 L4.2539,29.7014 C4.2539,30.5284 4.9269,31.2014 5.7539,31.2014 L34.2469,31.2014 C35.0739,31.2014 35.7469,30.5284 35.7469,29.7014 L35.7469,10.2984 C35.7469,9.4714 35.0739,8.7984 34.2469,8.7984 L34.2469,8.7984 Z" id="Fill-2" fill="#231F20"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

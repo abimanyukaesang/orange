@@ -1,0 +1,50 @@
+.slide-about{
+    margin: 150px 0 120px 0;
+    #about-us{
+        position: relative;
+        .owl-nav {
+            position: absolute;
+            top: 45%;
+            right: 0;
+            left: 0;
+        }
+        .owl-prev, .owl-next {
+            position: absolute;
+            border-radius: 50%!important;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 48px;
+            height: 48px;
+            font-size: 24px !important;
+            outline: none;
+            &:hover{
+                background-color: #fff;
+            }
+        }
+
+        .owl-prev{
+            left: 30px;
+            background-image: url(../images/left-arrow.svg);
+            &:hover{
+                background-image: url(../images/left-arrow-col.svg);
+            }
+        }
+
+        .owl-next{
+            right: 30px;
+            background-image: url(../images/right-arrow.svg);
+            &:hover{
+                background-image: url(../images/right-arrow-col.svg);
+            }
+        }
+
+        .about-item {
+            padding: 0 10px;
+            img {
+              border-radius: 5px!important;
+            }
+          }
+    }
+}
+

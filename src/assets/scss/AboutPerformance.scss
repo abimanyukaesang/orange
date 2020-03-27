@@ -1,0 +1,26 @@
+.content-performance{
+    padding: 60px;
+    width: 540px;
+    height: 345px;
+}
+
+.left-arrow, .right-arrow{
+    border-radius: 50px!important;
+    background-color: #fff;
+    background-image: url(../images/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+    box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.75);
+    &:hover{
+        background-image: url(../images/left-arrow-col.svg);
+    }
+}
+
+.right-arrow{
+    background-image: url(../images/right-arrow.svg);
+    &:hover{
+        background-image: url(../images/right-arrow-col.svg);
+    }
+}

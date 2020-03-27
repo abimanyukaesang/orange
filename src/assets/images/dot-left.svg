@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="310px" height="152px" viewBox="0 0 310 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-ABOUT-US" transform="translate(-332.000000, -931.000000)">
+            <g id="Page-1" transform="translate(332.000000, 923.000000)">
+                <path d="M23.5002,120.1209 C23.5002,126.4079 18.3512,131.5039 12.0002,131.5039 C5.6482,131.5039 0.5002,126.4079 0.5002,120.1209 C0.5002,113.8339 5.6482,108.7379 12.0002,108.7379 C18.3512,108.7379 23.5002,113.8339 23.5002,120.1209 Z" id="Stroke-1" stroke="#F28500"></path>
+                <path d="M19.4197,120.1209 C19.4197,124.1729 16.0977,127.4569 11.9997,127.4569 C7.9027,127.4569 4.5807,124.1729 4.5807,120.1209 C4.5807,116.0699 7.9027,112.7849 11.9997,112.7849 C16.0977,112.7849 19.4197,116.0699 19.4197,120.1209" id="Fill-3" fill="#F28500"></path>
+                <path d="M12,160 L12,114.76097 C12,94.7458702 25.432,78.5214266 42,78.5214266 L160,78.5214266 L278,78.5214266 C294.568,78.5214266 308,62.2957751 308,42.2818832 L308,0" id="Stroke-5" stroke="#F28500" stroke-width="3" stroke-dasharray="3,10"></path>
+            </g>
+        </g>
+    </g>
+</svg>

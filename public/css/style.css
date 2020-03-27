@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'Sulphur Point';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sulphur Point Regular'), local('SulphurPoint-Regular'), url(https://fonts.gstatic.com/s/sulphurpoint/v1/RLp5K5vv8KaycDcazWFPBj2adf4Yvw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sulphur Point';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Sulphur Point Bold'), local('SulphurPoint-Bold'), url(https://fonts.gstatic.com/s/sulphurpoint/v1/RLpkK5vv8KaycDcazWFPBj2afUU9r64PVA.ttf) format('truetype');
+}
+@font-face {
+  font-family: alcefun, sans-serif;
+  src: url(../fonts/alcefun-rounded.otf);
+}
+@font-face {
+  font-family: cassannet, sans-serif;
+  src: url(../fonts/cassannet.otf);
+}
+body {
+  font-size: 16px;
+  line-height: 32px;
+}
+* {
+  font-family: alcefun, sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+* {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #b6b6b6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+  outline: none !important;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: 700;
+  color: #F28500;
+}
+.has-icon .form-control {
+  padding-right: 42px;
+}
+.has-icon .form-control-icon {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 37px;
+  line-height: 38px;
+  text-align: center;
+  pointer-events: none;
+}
+.navbar.solid {
+  background-color: #666666;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: #fff;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  padding: 0 0.5rem;
+  color: #fff;
+  transition: color 1s ease 0s;
+}
+.navbar-brand img {
+  max-height: 47px;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+    -o-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+@-moz-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+    -o-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+    -o-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+.in-down {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.btn-red {
+  border-radius: 4px!important;
+  border: 1px solid #C92535;
+  background-color: #C92535;
+  min-width: 160px;
+  font-weight: bold;
+  color: #fff;
+}
+.btn-red:hover {
+  background-color: #fff;
+  color: #C92535;
+}
+.btn-red:focus {
+  background-color: #fff;
+  color: #C92535;
+}
+.btn-red:active {
+  background-color: #fff;
+  color: #C92535;
+}
+.btn-orange {
+  border-radius: 4px!important;
+  border: 1px solid #F28500;
+  background-color: #fff;
+  min-width: 160px;
+  font-weight: bold;
+  color: #F28500;
+}
+.btn-orange:hover {
+  background-color: #F28500;
+  color: #fff;
+}
+.btn-orange:focus {
+  background-color: #F28500;
+  color: #fff;
+}
+.btn-orange:active {
+  background-color: #F28500;
+  color: #fff;
+}

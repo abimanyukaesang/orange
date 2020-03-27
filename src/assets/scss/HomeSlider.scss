@@ -1,0 +1,90 @@
+.main-banner{
+    .slide1, .slide2{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 60%;
+        text-align: left;
+        text-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+        h2{
+            margin: 0;
+            font-size: 40px;
+            text-align: left;
+        }
+
+        p{
+            margin-bottom: 45px;
+            line-height: 24px;
+            font-weight: bold;
+        }
+
+        a{
+            display: flex;
+            height: 38px;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+            i{
+                margin-left: 10px;
+                font-size: 40px;
+                color:#f28500;
+            }
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .left-arrow, .right-arrow{
+        border-radius: 50px!important;
+        background-color: #fff;
+        background-image: url(../images/left-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 48px;
+        height: 48px;
+        &:hover{
+            background-image: url(../images/left-arrow-col.svg);
+        }
+    }
+
+    .right-arrow{
+        background-image: url(../images/right-arrow.svg);
+        &:hover{
+            background-image: url(../images/right-arrow-col.svg);
+        }
+    }
+
+    .carousel-indicators{
+       position: relative;
+       margin-top: 30px;
+        li{
+            height: 12px;
+            width: 12px;
+            border-radius: 100%!important;
+            border: 1px solid #f28500;
+            opacity: 10;
+        }
+        
+        .active{
+            background-color: #f28500;
+        }
+      }
+
+    .frame-bottom{
+        position: absolute;
+        bottom: -2px;
+        background-image: url(../images/frame-bottom.svg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        width: 100%;
+        height: 242px;
+    }
+}

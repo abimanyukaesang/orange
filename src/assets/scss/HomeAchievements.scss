@@ -1,0 +1,39 @@
+.achievement-banner{
+
+    .left-arrow, .right-arrow{
+        border-radius: 50px!important;
+        background-color: #fff;
+        background-image: url(../images/left-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        border: 1px solid #ddd;
+        width: 48px;
+        height: 48px;
+        &:hover{
+            background-image: url(../images/left-arrow-col.svg);
+        }
+    }
+
+    .right-arrow{
+        background-image: url(../images/right-arrow.svg);
+        &:hover{
+            background-image: url(../images/right-arrow-col.svg);
+        }
+    }
+
+    .desc-achievements{
+        padding: 50px;
+
+        h4{
+            font-size: 16px;
+        }
+    }   
+
+    #carouselAchievements{
+        padding-bottom: 80px;
+        background-image: url(../images/bg-achievement.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+}

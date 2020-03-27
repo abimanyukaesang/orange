@@ -1,0 +1,82 @@
+.about-intro{
+   
+    .left-arrow, .right-arrow{
+        border-radius: 50px!important;
+        background-color: #fff;
+        background-image: url(../images/left-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 48px;
+        height: 48px;
+        &:hover{
+            background-image: url(../images/left-arrow-col.svg);
+        }
+    }
+
+    .right-arrow{
+        background-image: url(../images/right-arrow.svg);
+        &:hover{
+            background-image: url(../images/right-arrow-col.svg);
+        }
+    }
+
+    .carousel-indicators{
+       position: relative;
+       margin: 0 auto;
+       padding: 12px;
+       background-color: #f28500;
+       width: 400px;
+        li{
+            height: 10px;
+            width: 10px;
+            border-radius: 100%!important;
+            border: 1px solid #fff;
+            background-color: transparent;
+            opacity: 10;
+        }
+        
+        .active{
+            background-color: #fff;
+        }
+    }
+
+    .content-right{
+        h2{
+            margin: 0;
+            text-align: left;
+        }
+    
+        .line-sparate{
+            margin: 30px 0 30px -30px;
+            border: 2px solid #f28500;
+        }
+    }
+
+    .content-left{
+        h2{
+            margin: 0;
+            text-align: right;
+        }
+    
+        .line-sparate{
+            margin: 30px -30px 30px 0;
+            border: 2px solid #f28500;
+        }
+    }
+
+    .dot-left{
+        img{
+            display: block;
+            margin-left: 22%;
+            width: 311px;
+        }
+    }
+
+    .dot-center{
+        img{
+            display: block;
+            margin: auto;
+            width: 574px;
+        }
+    }
+}

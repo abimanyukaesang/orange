@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595px" height="154px" viewBox="0 0 595 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, -6.000000)">
+            <path d="M592.0005,135.6522 C592.0005,141.9392 586.8515,147.0352 580.5005,147.0352 C574.1485,147.0352 569.0005,141.9392 569.0005,135.6522 C569.0005,129.3652 574.1485,124.2692 580.5005,124.2692 C586.8515,124.2692 592.0005,129.3652 592.0005,135.6522 Z" id="Stroke-1" stroke="#F28500"></path>
+            <path d="M580.4999,142.9882 C576.4029,142.9882 573.0809,139.7042 573.0809,135.6522 C573.0809,131.6012 576.4029,128.3162 580.4999,128.3162 C584.5979,128.3162 587.9199,131.6012 587.9199,135.6522 C587.9199,139.7042 584.5979,142.9882 580.4999,142.9882 Z" id="Fill-3" fill="#F28500" fill-rule="nonzero"></path>
+            <path d="M580,160 L580,114.76097 C580,94.7458702 566.705529,78.5214266 550.307167,78.5214266 L146.484642,78.5214266 L29.6928328,78.5214266 C13.294471,78.5214266 0,62.2957751 0,42.2818832 L0,0" id="Stroke-5" stroke="#F28500" stroke-width="3" stroke-dasharray="3,10"></path>
+        </g>
+    </g>
+</svg>
