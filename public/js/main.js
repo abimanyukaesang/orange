@@ -4,7 +4,7 @@ $(document).ready(function () {
   $(".navbar-nav li a").click(function (event) {
     $(".navbar-collapse").collapse('hide');
   });
-  
+
 
   //Create classOnScroll function
   function classOnScroll() {
@@ -29,23 +29,23 @@ $(document).ready(function () {
     nav: true,
     dots: false,
     navText: [
-        // "<span className='left-arrow'></span>",
-        // "<span className='right-arrow'></span>"
+      // "<span className='left-arrow'></span>",
+      // "<span className='right-arrow'></span>"
     ],
     autoplay: true,
     autoplayHoverPause: true,
     responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 2
-        }
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 2
+      }
     }
-});
+  });
 
 
 
@@ -54,4 +54,11 @@ $(document).ready(function () {
 
   //Run on scroll and resize
   $(window).on('scroll resize', classOnScroll);
+
+
+
+
+  $(".fancybox").fancybox();
+
+  
 });

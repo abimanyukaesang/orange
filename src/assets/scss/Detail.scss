@@ -1,10 +1,22 @@
 .detail-gallery{
     margin: 75px 0 80px 0;
     .slide1, .slide2{
+        position: relative;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         min-height: 100vh;
+
+        .btn{
+            margin-bottom: 40px;
+        }
+
+        .masking{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
     }
 }
 
