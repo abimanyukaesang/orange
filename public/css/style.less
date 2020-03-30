@@ -129,13 +129,19 @@ h4{
     transition: color 1s ease 0s;
   }
 
-  .navbar-nav {
-    > li {
-      > a {
-        padding: 0 0.5rem;
-        color: #fff;
-        transition: color 1s ease 0s;
-      }
+}
+
+.navbar-nav {
+  > li {
+    > a {
+      padding: 0 0.5rem;
+      color: #fff;
+      transition: color 1s ease 0s;
+      font-weight: bold;
+    }
+
+    .is-active{
+      color: @orange;
     }
   }
 }

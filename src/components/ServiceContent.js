@@ -32,7 +32,18 @@ const ServiceContent =() => (
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
 
-                            <Link to={`/service-detail`} className='btn btn-orange'>LEARN MORE</Link>
+                            <Link to={{
+                                pathname: "/services/tmt", 
+                                state: {
+                                    title: "TAILOR MADI TRIPS",
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    }
+                                }}
+                                className='btn btn-orange'
+                            >
+                                LEARN MORE
+                            </Link>
+
                         </div>
                     </div>
                 </div>
@@ -55,7 +66,17 @@ const ServiceContent =() => (
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
 
-                            <Link to={`/service-detail`} className='btn btn-orange'>LEARN MORE</Link>
+                            <Link to={{
+                                pathname: "/services/ceg", 
+                                state: {
+                                    title: "CORPORATE EVENT, GATHERING & MEETING",
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    }
+                                }}
+                                className='btn btn-orange'
+                            >
+                                LEARN MORE
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -78,7 +99,17 @@ const ServiceContent =() => (
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
 
-                            <Link to={`/service-detail`} className='btn btn-orange'>LEARN MORE</Link>
+                            <Link to={{
+                                pathname: "/services/video", 
+                                state: {
+                                    title: "CORPORATE VIDEO",
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    }
+                                }}
+                                className='btn btn-orange'
+                            >
+                                LEARN MORE
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -101,7 +132,17 @@ const ServiceContent =() => (
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
 
-                            <Link to={`/service-detail`} className='btn btn-orange'>LEARN MORE</Link>
+                            <Link to={{
+                                pathname: "/services/ctb", 
+                                state: {
+                                    title: "CORPORATE TEAM BUILDING",
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    }
+                                }}
+                                className='btn btn-orange'
+                            >
+                                LEARN MORE
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -124,7 +165,17 @@ const ServiceContent =() => (
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
 
-                            <Link to={`/service-detail`} className='btn btn-orange'>LEARN MORE</Link>
+                            <Link to={{
+                                pathname: "/services/tgd", 
+                                state: {
+                                    title: "THEMED GALA DINNER",
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    }
+                                }}
+                                className='btn btn-orange'
+                            >
+                                LEARN MORE
+                            </Link>
                         </div>
                     </div>
                 </div>

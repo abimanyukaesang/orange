@@ -19,12 +19,6 @@ const DetailGallery =() => (
                 </div>
             </div>
         </div>
-
-        <div className='container'>
-            <div className='row'>
-               <div className='col-md-4'>makan</div>
-            </div>
-        </div>
     </div>
 )
 

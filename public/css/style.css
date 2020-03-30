@@ -111,10 +111,14 @@ h4 {
   color: #fff;
   transition: color 1s ease 0s;
 }
-.navbar.solid .navbar-nav > li > a {
+.navbar-nav > li > a {
   padding: 0 0.5rem;
   color: #fff;
   transition: color 1s ease 0s;
+  font-weight: bold;
+}
+.navbar-nav > li .is-active {
+  color: #F28500;
 }
 .navbar-brand img {
   max-height: 47px;
