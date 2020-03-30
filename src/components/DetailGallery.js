@@ -22,12 +22,7 @@ const DetailGallery =() => (
 
         <div className='container'>
             <div className='row'>
-                <a className="fancybox col-md-4 mb-4" rel="gallery" href={Slide2} title="">
-                    <img src={Slide2} alt="" className="img-fluid" />
-                </a>
-                <a className="fancybox col-md-4 mb-4" rel="gallery" href={Slide2} title="">
-                    <img src={Slide2} alt="" className="img-fluid" />
-                </a>
+               <div className='col-md-4'>makan</div>
             </div>
         </div>
     </div>
