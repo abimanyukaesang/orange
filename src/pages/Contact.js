@@ -13,9 +13,7 @@ const slideContact1 = {backgroundImage: 'url(' + Slide1 + ')',};
 
 const Contact =() => (
     <div>
-        <div className='banner'>
-            <Banner style={slideContact1}/>
-        </div>
+        <Banner style={slideContact1}/>
 
         <div className='container'>
             <div className='row'>

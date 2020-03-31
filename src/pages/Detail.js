@@ -14,14 +14,19 @@ function Detail (props){
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-8'>
-                        <div className='side-left'>
-                            <h2>{title}</h2>
+                        <div className='row'>
+                            <div className='col-md-11'>
+                                <div className='side-left'>
+                                    <h2>{title}</h2>
 
-                            <p>
-                                {desc}
-                                {media}
-                            </p>
+                                    <p>
+                                        {desc}
+                                    </p>
 
+                                    <iframe style={{width:'100%', height:300,}} src="https://www.youtube.com/embed/pGFWb4btass" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className='col-md-4'>

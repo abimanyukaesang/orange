@@ -14,9 +14,8 @@ const slideAbout1 = {backgroundImage: 'url(' + Slide1 + ')',};
 
 const Service =() => (
     <div>
-        <div className='banner'>
-            <Banner style={slideAbout1}/>
-        </div>
+        <Banner style={slideAbout1}/>
+        
         <div className='container'>
             <div className='row'>
                 <div className='col-md-8 offset-md-2'>

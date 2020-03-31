@@ -1,5 +1,8 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import AboutVideo from '../components/AboutVideo';
+
+
 
 import Slide1 from '../assets/images/bg-about.jpg';
 import AboutIntro from '../components/AboutIntro';
@@ -9,10 +12,10 @@ const slideAbout1 = {backgroundImage: 'url(' + Slide1 + ')',};
 
 const About =() =>(
     <div>
-        <div className='banner'>
-            <Banner style={slideAbout1}/>
-        </div>
+        
+        {/* <Banner style={slideAbout1}/> */}
 
+        <AboutVideo/>    
         <AboutIntro/>
         <AboutActivity/>
         <AboutPerformance/>
