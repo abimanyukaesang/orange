@@ -36,7 +36,8 @@ const ServiceContent =() => (
                                 pathname: "/services/tmt", 
                                 state: {
                                     title: "TAILOR MADI TRIPS",
-                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                                    media: "{pictService1}"
                                     }
                                 }}
                                 className='btn btn-orange'

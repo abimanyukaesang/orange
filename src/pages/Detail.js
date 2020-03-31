@@ -6,6 +6,7 @@ function Detail (props){
     const name = props.match.params.name;
     const title = props.location.state.title;
     const desc = props.location.state.desc;
+    const media = props.location.state.media;
     return(
         <div>
             <DetailGallery/>
@@ -18,6 +19,7 @@ function Detail (props){
 
                             <p>
                                 {desc}
+                                {media}
                             </p>
 
                         </div>
