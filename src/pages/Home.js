@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/scss/Home.scss';
+import BannerHome from '../components/BannerHome';
 import HomeSlider from '../components/HomeSlider';
 import HomeSecondSlider from '../components/HomeSecondSlider';
 import HomeWhy from '../components/HomeWhy';
@@ -9,6 +10,9 @@ import iconWhy3 from '../assets/images/our-people.svg';
 import iconWhy4 from '../assets/images/our-credibility.svg';
 import HomeAchievements from '../components/HomeAchievements';
 
+
+import Slide1 from '../assets/images/homepage1.jpg';
+const slideAbout1 = {backgroundImage: 'url(' + Slide1 + ')',};
 
 
 const itemWhy = [
@@ -42,6 +46,8 @@ const itemWhy = [
 const Home =() =>(
     <div>
         <HomeSlider/>
+
+        {/* <BannerHome style={slideAbout1}/> */}
         
         <div className='container'>
             <div className='row'>

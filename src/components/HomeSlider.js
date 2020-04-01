@@ -26,27 +26,14 @@ const HomeSlider =() =>(
                             <div className="col-md-8">
                                 <h2>NEVER STOP EXPLORING</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <a href='#' data-toggle="modal" data-target="#exampleModal">
+                                <a type="button" className="video-btn" 
+                                    data-toggle="modal" 
+                                    data-target="#myModal"
+                                    data-src="https://www.youtube.com/embed/pGFWb4btass"
+                                >
                                     WATCH VIDEO
                                     <i className="fa fa-play-circle" aria-hidden="true"></i>
                                 </a>
-
-                                
-                                <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog" role="document">
-                                        <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div className="modal-body">
-                                            ...makan
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>
@@ -102,6 +89,18 @@ const HomeSlider =() =>(
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
         </ol>
+       
+        <div className="modal fade" id="myModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-lg modal-home" role="document">
+                <div className="modal-content">
+                    <button type="button" className="close close-video" data-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal-body">
+                        {/* <iframe style={{width:'100%', height:'100%',}} src="https://www.youtube.com/embed/pGFWb4btass" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+                        <iframe style={{width:'100%', height:'100%',}} className="embed-responsive-item" src="" id="video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 )
 
