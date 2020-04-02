@@ -17,7 +17,7 @@ function App() {
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
             <div className='container tes'>
               <Link className="navbar-brand" to="/"><img src={Logo}/></Link>
-              
+
               <button className="navbar-toggler collapsed p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="icon-bar top-bar"></span>
                   <span className="icon-bar middle-bar"></span>
