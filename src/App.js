@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
-            <div className='container'>
+            <div className='container tes'>
               <Link className="navbar-brand" to="/"><img src={Logo}/></Link>
               
               <button className="navbar-toggler collapsed p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,10 @@ function App() {
                   </ul>
               </div>
             </div>
+
         </nav>
-        
+
+ 
 
         <Switch>
           <Route path="/" exact component={Home}></Route>

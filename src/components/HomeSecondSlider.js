@@ -34,7 +34,7 @@ const HomeSecondSlider =() =>(
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className='slide1' style={contentService1}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row'>
                             <div className="col-md-4">
                                 <h2>Tailor Made Trips</h2>
@@ -46,7 +46,7 @@ const HomeSecondSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide1' style={contentService2}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row'>
                             <div className="col-md-5">
                                 <h2>Corporate Event, Gathering & Meeting</h2>
@@ -58,7 +58,7 @@ const HomeSecondSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide1' style={contentService3}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row'>
                             <div className="col-md-5">
                                 <h2>Corporate Video</h2>
@@ -70,7 +70,7 @@ const HomeSecondSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide1' style={contentService4}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row'>
                             <div className="col-md-4">
                                 <h2>Corporate Team Building</h2>
@@ -82,7 +82,7 @@ const HomeSecondSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide1' style={contentService5}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row'>
                             <div className="col-md-5">
                                 <h2>Themed Gala Dinner</h2>
@@ -93,8 +93,15 @@ const HomeSecondSlider =() =>(
                     </div>
                 </div>
             </div>
+
+            <a className="carousel-control-prev d-md-block" href="#HomeSecondSlider" role="button" data-slide="prev">
+                <span className='left-arrow'></span>
+            </a>
+            <a className="carousel-control-next d-md-block" href="#HomeSecondSlider" role="button" data-slide="next">
+                <span className='right-arrow'></span>
+            </a>
            
-            <div className='container'>
+            <div className='container d-none d-md-block'>
                 <div className='row justify-content-end'>
                     <div className='col-md-8'>
                         <ol className="carousel-indicators">

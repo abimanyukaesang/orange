@@ -21,7 +21,7 @@ const HomeSlider =() =>(
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className='slide1' style={slide1}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row justify-content-end'>
                             <div className="col-md-8">
                                 <h2>NEVER STOP EXPLORING</h2>
@@ -41,7 +41,7 @@ const HomeSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide2' style={slide2}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row justify-content-end'>
                             <div className="col-md-8">
                                 <h2>NEVER STOP EXPLORING</h2>
@@ -52,7 +52,7 @@ const HomeSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide2' style={slide3}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row justify-content-end'>
                             <div className="col-md-8">
                                 <h2>NEVER STOP EXPLORING</h2>
@@ -63,7 +63,7 @@ const HomeSlider =() =>(
                 </div>
                 <div className="carousel-item">
                     <div className='slide2' style={slide4}></div>
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-md-block">
                         <div className='row justify-content-end'>
                             <div className="col-md-8">
                                 <h2>NEVER STOP EXPLORING</h2>
