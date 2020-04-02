@@ -15,31 +15,31 @@ const AboutActivity =() =>(
     <div className='slide-about'>
         <div id="about-us" className="owl-carousel">
             <div className="about-item">
-                <img src={slide1} alt=""/>
+                <img src={slide1} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide2} alt=""/>
+                <img src={slide2} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide3} alt=""/>
+                <img src={slide3} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide4} alt=""/>
+                <img src={slide4} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide5} alt=""/>
+                <img src={slide5} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide6} alt=""/>
+                <img src={slide6} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide7} alt=""/>
+                <img src={slide7} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide8} alt=""/>
+                <img src={slide8} alt="activity"/>
             </div>
             <div className="about-item">
-                <img src={slide9} alt=""/>
+                <img src={slide9} alt="activity"/>
             </div>
         </div>
     </div>
