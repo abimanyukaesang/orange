@@ -23,7 +23,7 @@ function Detail (props){
                                         {desc}
                                     </p>
 
-                                    <iframe style={{width:'100%', height:300,}} src="https://www.youtube.com/embed/pGFWb4btass" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe style={{width:'100%', height:300,}} src="https://www.youtube.com/embed/pGFWb4btass" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                 
                                 </div>
                             </div>
