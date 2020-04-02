@@ -1,5 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
+// test comment
 import './App.css';
 
 import {BrowserRouter as Router, Route, Link, NavLink, Switch} from 'react-router-dom';
@@ -19,7 +20,7 @@ function App() {
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
             <div className='container'>
               <Link className="navbar-brand" to="/"><img src={Logo}/></Link>
-              
+
               <button className="navbar-toggler collapsed p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="icon-bar top-bar"></span>
                   <span className="icon-bar middle-bar"></span>
@@ -41,7 +42,7 @@ function App() {
               </div>
             </div>
         </nav>
-        
+
 
         <Switch>
           <Route path="/" exact component={Home}></Route>
