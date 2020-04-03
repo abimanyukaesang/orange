@@ -47,6 +47,7 @@ h4{
           border-radius: 0 !important;
 }
 
+
 //burger menu
 .icon-bar {
     width: 22px;
@@ -157,6 +158,15 @@ h4{
       color: @orange;
     }
   }
+}
+
+
+.nav-item .is-active::before{
+  position: absolute;
+  bottom: 8px;
+  content: '';
+  border-bottom: 4px solid @orange;
+  width: 64px;
 }
 
 

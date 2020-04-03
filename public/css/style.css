@@ -131,6 +131,13 @@ h4 {
 .navbar-nav > li .is-active {
   color: #F28500;
 }
+.nav-item .is-active::before {
+  position: absolute;
+  bottom: 8px;
+  content: '';
+  border-bottom: 4px solid #F28500;
+  width: 64px;
+}
 .navbar-brand img {
   max-height: 47px;
 }
