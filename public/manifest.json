@@ -4,7 +4,7 @@
   "description": "Orange is a professional corporate incentive brand and stands as divison group of Panorama JTB Tours Indonesia with long of experience in planning, preparing and executing any incentive trip provided for any company across Indonesia.",
   "icons": [
       {
-        "src": "favicon.ico",
+        "src": "/favicon.ico",
         "sizes": "48x48",
         "type": "image/x-icon"
       },
