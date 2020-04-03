@@ -112,11 +112,9 @@ h4 {
   width: 100%;
   height: 1px;
 }
-.navbar.solid {
-  padding-bottom: 0;
-  background-color: #666666;
+.navbar {
+  background-image: linear-gradient(to bottom, #666666, rgba(0, 0, 0, 0));
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
   color: #fff;
@@ -127,6 +125,10 @@ h4 {
   color: #fff;
   transition: color 1s ease 0s;
   font-weight: bold;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+  color: #F28500;
 }
 .navbar-nav > li .is-active {
   color: #F28500;
