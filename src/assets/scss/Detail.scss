@@ -60,3 +60,15 @@
 .gallery{
     margin: 0 0 50px 0;
 }
+
+.detail-slide{
+    a{
+        &:nth-child(3), &:nth-child(4), &:nth-child(5){
+            display: none;
+        }
+    }
+}
+
+.btn-show-all{
+    margin-top: -140px;
+}

@@ -231,17 +231,16 @@ h4 {
   background-color: #fff;
   min-width: 160px;
   font-weight: bold;
-  color: #F28500;
 }
 .btn-orange:hover {
   background-color: #F28500;
-  color: #fff;
+  color: #fff !important;
 }
 .btn-orange:focus {
   background-color: #F28500;
-  color: #fff;
+  color: #fff !important;
 }
 .btn-orange:active {
   background-color: #F28500;
-  color: #fff;
+  color: #fff !important;
 }
