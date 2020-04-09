@@ -25,7 +25,7 @@ const Footer =() => (
                     </p>
                 </div>
                 <div className='col-md-5'>
-                    <h5>CALL US</h5>
+                    <h5>Reach Us Out!</h5>
                     <p>
                         Phone : +6221 2556 5555 <br/>
                         Whatsapp : +62817 00000000 <br/>
@@ -33,15 +33,15 @@ const Footer =() => (
                     </p>
                 </div>
                 <div className='col-md-4'>
-                    <div className='form-group has-icon'>
+                    {/* <div className='form-group has-icon'>
                         <input className="form-control form-control-lg" placeholder='Enter your email to stay in the know'/>
                         <i className="fa fa-long-arrow-right form-control-icon" aria-hidden="true"></i>
-                    </div>
+                    </div> */}
                     <div className='text-right'>
-                        <a rel="nofollow" href="#" className="social" target="_blank">
+                        <a rel="nofollow" href="#" className="social facebook" target="_blank">
                             <i className="fa fa-facebook" aria-hidden="true"></i>
                         </a>
-                        <a rel="nofollow" href="#" className="social" target="_blank">
+                        <a rel="nofollow" href="#" className="social instagram" target="_blank">
                             <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -51,7 +51,7 @@ const Footer =() => (
             <div className='row'>
                 <div className='col-md-12'>
                     <hr/>
-                    <h5 className='text-center'>© ORANGE INCENTIVE HOUSE. ALL RIGHT RESERVED 2019</h5>
+                    <div className='copyright'>© ORANGE INCENTIVE HOUSE. ALL RIGHT RESERVED 2019</div>
                 </div>
             </div>
 

@@ -17,7 +17,7 @@ const AboutIntro =() =>(
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-12'>
-                        <h2 className='text-center mb-0'>THIS IS ORANGE</h2>
+                        <h2 className='text-center mb-0'>Let’s Get To Know Orange Incentive House!</h2>
                     </div>
                 </div>
                     
@@ -66,7 +66,7 @@ const AboutIntro =() =>(
                     </div>
                     <div className='col-md-6'>
                         <div className='content-right'>
-                            <h2>LEADERSHIP</h2>
+                            <h2>Meet Our Leadership Team!</h2>
 
                             <div className='line-sparate'></div>
 
@@ -89,7 +89,7 @@ const AboutIntro =() =>(
                 <div className='row'>
                     <div className='col-md-6'>
                         <div className='content-left'>
-                            <h2>WHO WE ARE</h2>
+                            <h2>Get To Know Our Teams at Orange</h2>
 
                             <div className='line-sparate'></div>
 

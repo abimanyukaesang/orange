@@ -1,6 +1,6 @@
 .main-footer{
     margin: 70px 0 0 0;
-    padding: 70px 0 0 0;
+    padding: 180px 0 0 0;
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,8 +8,13 @@
     min-height: 420px;
     color: #fff;
 
+    h5{
+        font-size: 18px;
+    }
+
     .btn-wa{
         position: fixed;
+        z-index: 1;
         right: 80px;
         bottom: 60px;
         display: inline-flex;
@@ -17,7 +22,7 @@
         margin: 0 0 38px 0;
         padding: 10px 15px;
         border-radius: 50px!important;
-        background-color: #368C41;
+        background-color: #4caf50;
         width: auto;
         font-size: 18px;
         color: #fff;
@@ -53,15 +58,27 @@
 
 .social {
     display: inline-block;
-    margin: 15px 0 5px 15px;
-    padding-top: 5px;
-    border-radius: 8px!important;
+    margin: 15px 0 5px 10px;
+    border-radius: 3px!important;
     background-color: #fff;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     i {
-      font-size: 30px;
-      color: #3b3b3b;
+      font-size: 18px;
+      color: #fff;
     }
-  }
+}
+
+.facebook{
+    background-color: #4267b2;
+}
+
+.instagram{
+    background-color: #E1306C;
+}
+
+.copyright{
+    font-size: 11px;
+    text-align: center;
+}

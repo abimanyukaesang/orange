@@ -1,9 +1,9 @@
 [
     {
       "id": "1",
-      "title": "TAILOR MADE TRIPS",
+      "title": "Tailor Made Trips",
       "slug": "tailor-made-trips",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "desc": "ini Tailor Made Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "image": "/images/our-service-tmt.jpg",
       "icon": "/images/service-1.svg",
       "photo":[
@@ -16,7 +16,7 @@
     },
     {
         "id": "2",
-        "title": "CORPORATE EVENT, GATHERING & MEETING",
+        "title": "Corporate Event, Gathering & Meeting",
         "slug": "corporate-event-gathering-meeting",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "image": "/images/our-service-ceg.jpg",
@@ -31,7 +31,7 @@
     },
     {
         "id": "3",
-        "title": "CORPORATE VIDEO",
+        "title": "CORPORATE VIDEO Corporate Video",
         "slug": "corporate-video",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "image": "/images/our-service-video.jpg",
@@ -46,7 +46,7 @@
     },
     {
         "id": "4",
-        "title": "CORPORATE TEAM BUILDING",
+        "title": "Corporate Team Building",
         "slug": "corporate-team-building",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "image": "/images/our-service-ctb.jpg",
@@ -61,7 +61,7 @@
     },
     {
         "id": "5",
-        "title": "THEMED GALA DINNER",
+        "title": "Themed Gala Dinner",
         "slug": "themed-gala-dinner",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "image": "/images/our-service-tgd.jpg",

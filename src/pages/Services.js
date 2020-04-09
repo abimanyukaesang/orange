@@ -31,7 +31,7 @@ const Service = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2">
-            <h2>OUR SERVICES</h2>
+            <h2>Let’s Explore And Experience The World</h2>
             <p className="service-intro">
               To build a glorious palace, the architects of the ancient time
               will select the best workers and highly reward them once it was

@@ -2,6 +2,9 @@
     padding: 60px;
     width: 540px;
     height: 345px;
+    h4{
+        font-size: 18px;
+    }
 }
 
 .left-arrow, .right-arrow{
@@ -15,6 +18,7 @@
     box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.75);
     &:hover{
         background-image: url(../images/left-arrow-col.svg);
+        background-size: 20px;
     }
 }
 
@@ -22,5 +26,6 @@
     background-image: url(../images/right-arrow.svg);
     &:hover{
         background-image: url(../images/right-arrow-col.svg);
+        background-size: 20px;
     }
 }

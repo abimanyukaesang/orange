@@ -72,6 +72,10 @@
   .nav-item .is-active::before {
     border-bottom: none!important;
   }
+  .main-footer .btn-wa {
+    right: 15px!important;
+    bottom: 80px!important;
+  }
 }
 .card-body .btn-wa {
   width: auto!important;
