@@ -39,7 +39,7 @@ const HomeSecondSlider =() =>(
                             <div className="col-md-4">
                                 <h2>Tailor Made Trips</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to={`/services`} className='btn btn-red'>LEARN MORE</Link>
+                                <Link to={`/services`} className='btn btn-red'>Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const HomeSecondSlider =() =>(
                             <div className="col-md-5">
                                 <h2>Corporate Event, Gathering & Meeting</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to={`/services`} className='btn btn-red'>LEARN MORE</Link>
+                                <Link to={`/services`} className='btn btn-red'>Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const HomeSecondSlider =() =>(
                             <div className="col-md-5">
                                 <h2>Corporate Video</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to={`/services`} className='btn btn-red'>LEARN MORE</Link>
+                                <Link to={`/services`} className='btn btn-red'>Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const HomeSecondSlider =() =>(
                             <div className="col-md-4">
                                 <h2>Corporate Team Building</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to={`/services`} className='btn btn-red'>LEARN MORE</Link>
+                                <Link to={`/services`} className='btn btn-red'>Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ const HomeSecondSlider =() =>(
                             <div className="col-md-5">
                                 <h2>Themed Gala Dinner</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                <Link to={`/services`} className='btn btn-red'>LEARN MORE</Link>
+                                <Link to={`/services`} className='btn btn-red'>Learn More</Link>
                             </div>
                         </div>
                     </div>

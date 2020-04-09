@@ -18,27 +18,27 @@ const slideAbout1 = {backgroundImage: 'url(' + Slide1 + ')',};
 const itemWhy = [
     {
         imageUrl: iconWhy1,
-        title: 'OUR CLIENTS', 
-        subTitle: '1000 corporate clients', 
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+        title: 'CLIENTS', 
+        subTitle: '', 
+        content: ' Over 1000 corporate clients have trusted and explored with Orange Incentive House. We deliver each corporate client with a unique and once in a lifetime memories to create the best experiences they will encounter. '
     },
     {
         imageUrl: iconWhy2,
-        title: 'OUR PROJECTS', 
-        subTitle: '2000 unique incentive trips created', 
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+        title: 'PROJECTS', 
+        subTitle: '', 
+        content: 'We have created over 2000 unique incentive trips for our corporate clients.'
     },
     {
         imageUrl: iconWhy3,
-        title: 'OUR PEOPLE', 
-        subTitle: 'over 9 JAN 2002 travel professionals working passionately for you', 
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+        title: 'PEOPLE', 
+        subTitle: '', 
+        content: 'We have over 2000 travel professionals working passionately for you'
     },
     {
         imageUrl: iconWhy4,
-        title: 'OUR CREDIBILITY', 
-        subTitle: 'average 2000 increase in loyalty, statisfaction, and teamwork', 
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+        title: 'CREDIBILITY', 
+        subTitle: '', 
+        content: 'Through our trips, it’s more than just creating experiences. It’s also creating friendships, bonds, and happiness. Through research, we have found out that there has been a 200% increase in loyalty, satisfaction, and teamwork within the corporation'
     }
     
 ]
@@ -52,7 +52,7 @@ const Home =() =>(
         <div className='container'>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h2>WHY CHOOSE ORANGE</h2>
+                    <h2>Why Customers Explore With Us</h2>
                 </div>
             </div>
             <div className="row">

@@ -64,7 +64,7 @@ function Detail(props) {
       <div className='container mb-5'>
         <div className='row d-flex justify-content-end'>
           <div className='col-md-4'>
-            <a href='#' className='btn btn-orange btn-show-all btnOpen' data-fancybox="images" key={-0}>
+            <a href='#' className='btn btn-orange btn-show-all btnOpen' data-fancybox="images" key={0}>
               SHOW ALL PHOTO
             </a>
           </div>

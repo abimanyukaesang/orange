@@ -17,7 +17,7 @@ const Footer =() => (
             </div>
             <div className='row'>
                 <div className='col-md-3'>
-                    <h5>ORANGE INCENTIVE HOUSE</h5>
+                    <h5>Orange Incentive House</h5>
                     <p>
                         Panorama Building 6th Floor <br/>
                         Jl. Tomang Raya no 63 <br/>

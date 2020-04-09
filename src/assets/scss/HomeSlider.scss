@@ -14,14 +14,16 @@
         text-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
         h2{
             margin: 0;
-            font-size: 40px;
+            font-size: 48px;
+            font-weight: 700;
             text-align: left;
         }
 
         p{
             margin-bottom: 45px;
             line-height: 24px;
-            font-weight: bold;
+            font-size: 18px;
+            font-weight: 500;
         }
 
         a{
@@ -50,10 +52,11 @@
         background-image: url(../images/left-arrow.svg);
         background-repeat: no-repeat;
         background-position: center center;
-        width: 48px;
-        height: 48px;
+        width: 40px;
+        height: 40px;
         &:hover{
             background-image: url(../images/left-arrow-col.svg);
+            background-size: 20px;
         }
     }
 
@@ -68,8 +71,8 @@
        position: absolute;
        margin: 0px;
         li{
-            height: 12px;
-            width: 12px;
+            height: 5px;
+            width: 5px;
             border-radius: 100%!important;
             border: 1px solid #f28500;
             opacity: 10;

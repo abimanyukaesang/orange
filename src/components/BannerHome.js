@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/scss/BannerHome.scss';
+//import '../assets/scss/BannerHome.scss';
 
 const BannerHome =(props) =>(
     <div className='main-banner'>

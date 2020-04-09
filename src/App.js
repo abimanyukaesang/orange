@@ -27,13 +27,13 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav mx-auto">
                       <li className="nav-item">
-                          <NavLink exact={true} activeClassName="is-active" to="/about">ABOUT US</NavLink>
+                          <NavLink exact={true} activeClassName="is-active" to="/about">About Us</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink activeClassName="is-active" to="/services">SERVICES</NavLink>
+                          <NavLink activeClassName="is-active" to="/services">Services</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink activeClassName="is-active" to="/contact">CONTACT US</NavLink>
+                          <NavLink activeClassName="is-active" to="/contact">Contact Us</NavLink>
                       </li>
                   </ul>
               </div>

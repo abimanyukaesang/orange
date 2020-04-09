@@ -9,12 +9,16 @@
     color: #fff;
 
     .btn-wa{
+        position: fixed;
+        right: 80px;
+        bottom: 60px;
         display: inline-flex;
         align-items: center;
         margin: 0 0 38px 0;
         padding: 10px 15px;
         border-radius: 50px!important;
         background-color: #368C41;
+        width: auto;
         font-size: 18px;
         color: #fff;
         text-decoration: none;
