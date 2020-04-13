@@ -7,6 +7,14 @@
         min-height: 100vh;
     }
 
+    .masking{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #000 , transparent);
+        width: 50%;
+    }
     .carousel-caption {
         transform: translateY(-50%);
         bottom: 0;
@@ -32,6 +40,9 @@
         margin-right: 0;
         margin-bottom: 65px;
         li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 15px;
             width: 90px;
             height: 130px;
@@ -45,13 +56,17 @@
                 width: 48px;
             }
             p{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 30px 0 0 0;
-                height: 60px;
+                margin: 0;
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // margin: 30px 0 0 0;
+                // height: 60px;
                 font-size: 12px;
+                font-weight: 700;
                 line-height: normal;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
             }
             &:hover{
                 opacity: 10;
