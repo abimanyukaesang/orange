@@ -1,5 +1,6 @@
 [
     {
+      "className": "tmt",
       "id": "1",
       "title": "Tailor Made Trips",
       "slug": "tailor-made-trips",
@@ -15,6 +16,7 @@
       ]
     },
     {
+        "className": "ceg",
         "id": "2",
         "title": "Corporate Event, Gathering & Meeting",
         "slug": "corporate-event-gathering-meeting",
@@ -30,6 +32,7 @@
         ]
     },
     {
+        "className": "video-service",
         "id": "3",
         "title": "CORPORATE VIDEO Corporate Video",
         "slug": "corporate-video",
@@ -45,6 +48,7 @@
         ]
     },
     {
+        "className": "ctb",
         "id": "4",
         "title": "Corporate Team Building",
         "slug": "corporate-team-building",
@@ -60,6 +64,7 @@
         ]
     },
     {
+        "className": "tgd",
         "id": "5",
         "title": "Themed Gala Dinner",
         "slug": "themed-gala-dinner",
