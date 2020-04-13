@@ -37,8 +37,10 @@
             height: 130px;
             border-radius: 10px!important;
             border: none;
+            background-size: cover;
             text-indent: 0%;
             text-align: center;
+            opacity: 10;
             img{
                 width: 48px;
             }
@@ -57,7 +59,9 @@
         }
         
         .active{
-           
+            margin-top: -30px;
+            width: 120px;
+            height: 160px;
         }
     }
 
