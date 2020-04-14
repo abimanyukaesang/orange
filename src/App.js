@@ -16,7 +16,7 @@ function App() {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
             <div className='container tes'>
-              <Link className="navbar-brand" to="/"><img src={Logo}/></Link>
+              <Link className="navbar-brand" to="/orange"><img src={Logo}/></Link>
 
               <button className="navbar-toggler collapsed p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="icon-bar top-bar"></span>
@@ -27,13 +27,13 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav mx-auto">
                       <li className="nav-item">
-                          <NavLink exact={true} activeClassName="is-active" to="/about">About Us</NavLink>
+                          <NavLink exact={true} activeClassName="is-active" to="/orange/about">About Us</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink activeClassName="is-active" to="/services">Services</NavLink>
+                          <NavLink activeClassName="is-active" to="/orange/services">Services</NavLink>
                       </li>
                       <li className="nav-item">
-                          <NavLink activeClassName="is-active" to="/contact">Contact Us</NavLink>
+                          <NavLink activeClassName="is-active" to="/orange/contact">Contact Us</NavLink>
                       </li>
                   </ul>
               </div>
@@ -48,11 +48,11 @@ function App() {
  
 
         <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/about" exact component={About}></Route>
-          <Route path="/services" exact component={Service}></Route>
-          <Route path="/services/:name" exact component={Detail}></Route>
-          <Route path="/contact" exact component={Contact}></Route>
+          <Route path="/orange" exact component={Home}></Route>
+          <Route path="/orange/about" exact component={About}></Route>
+          <Route path="/orange/services" exact component={Service}></Route>
+          <Route path="/orange/services/:name" exact component={Detail}></Route>
+          <Route path="/orange/contact" exact component={Contact}></Route>
           {/* <Route path="/service-detail" component={Detail}></Route> */}
           <Route component={Notfound} />
         </Switch>
