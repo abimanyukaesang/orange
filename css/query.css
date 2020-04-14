@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+  .wrp-content-service {
+    position: relative;
+  }
+  .wrp-content-service .content-service {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background-color: #ebebeb;
+  }
+  .wrp-content-service .item-service {
+    width: auto!important;
+    height: auto!important;
+  }
+  .wrp-content-service .item-service h2 {
+    margin: 20px 0!important;
+    text-align: left;
+  }
+  .wrp-content-service .item-service img {
+    display: block;
+    margin: auto;
+    width: 80px !important;
+  }
+  .wrp-content-service .item-service p {
+    margin-bottom: 20px!important;
+    line-height: normal;
+  }
+  .wrp-content-service .pdr {
+    padding-right: 0!important;
+  }
+  .wrp-content-service .pdl {
+    padding-left: 0!important;
+  }
+  .video {
+    height: auto!important;
+  }
+  .video .frame-bottom {
+    bottom: 10px!important;
+  }
+  .about-intro .carousel-indicators {
+    width: auto!important;
+  }
+  .about-intro .dot-left img {
+    margin-left: 0!important;
+  }
+  .about-intro .content-right .line-sparate {
+    margin: 30px 0 30px 0px!important;
+  }
+  .about-intro .content-left .line-sparate {
+    margin: 30px 0px 30px 0px!important;
+  }
+  .about-intro .content-right h2 {
+    margin: 15px 0!important;
+  }
+  .content-performance {
+    padding: 15px!important;
+    background-color: #ebebeb;
+    width: auto!important;
+    height: auto!important;
+  }
+  .slide-about {
+    margin: 70px 0 70px 0!important;
+  }
+  .detail-slide a:nth-child(2) {
+    display: none;
+  }
+  .nav-item .is-active::before {
+    border-bottom: none!important;
+  }
+  .main-footer .btn-wa {
+    right: 15px!important;
+    bottom: 80px!important;
+  }
+}
+.card-body .btn-wa {
+  width: auto!important;
+}

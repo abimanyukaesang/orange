@@ -1,0 +1,82 @@
+[
+    {
+      "className": "tmt",
+      "id": "1",
+      "title": "Tailor Made Trips",
+      "slug": "tailor-made-trips",
+      "desc": "ini Tailor Made Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": "/images/our-service-tmt.jpg",
+      "icon": "/images/service-1.svg",
+      "photo":[
+        "/images/tmt1.jpg",
+        "/images/tmt2.jpg",
+        "/images/tmt3.jpg",
+        "/images/tmt4.jpg",
+        "/images/tmt5.jpg"
+      ]
+    },
+    {
+        "className": "ceg",
+        "id": "2",
+        "title": "Corporate Event, Gathering & Meeting",
+        "slug": "corporate-event-gathering-meeting",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "/images/our-service-ceg.jpg",
+        "icon": "/images/service-1.svg",
+        "photo":[
+            "/images/ceg1.jpg",
+            "/images/ceg2.jpg",
+            "/images/ceg3.jpg",
+            "/images/ceg4.jpg",
+            "/images/ceg5.jpg"
+        ]
+    },
+    {
+        "className": "video-service",
+        "id": "3",
+        "title": "CORPORATE VIDEO Corporate Video",
+        "slug": "corporate-video",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "/images/our-service-video.jpg",
+        "icon": "/images/service-3.svg",
+        "photo":[
+            "/images/tmt1.jpg",
+            "/images/tmt2.jpg",
+            "/images/tmt3.jpg",
+            "/images/tmt4.jpg",
+            "/images/tmt5.jpg"
+        ]
+    },
+    {
+        "className": "ctb",
+        "id": "4",
+        "title": "Corporate Team Building",
+        "slug": "corporate-team-building",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "/images/our-service-ctb.jpg",
+        "icon": "/images/service-4.svg",
+        "photo":[
+            "/images/ctb1.jpg",
+            "/images/ctb2.jpg",
+            "/images/ctb3.jpg",
+            "/images/ctb4.jpg",
+            "/images/ctb5.jpg"
+        ]
+    },
+    {
+        "className": "tgd",
+        "id": "5",
+        "title": "Themed Gala Dinner",
+        "slug": "themed-gala-dinner",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "/images/our-service-tgd.jpg",
+        "icon": "/images/service-5.svg",
+        "photo":[
+            "/images/tgd1.jpg",
+            "/images/tgd2.jpg",
+            "/images/tgd3.jpg",
+            "/images/tgd4.jpg",
+            "/images/tgd5.jpg"
+        ]
+    }
+  ]
