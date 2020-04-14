@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/orange/static/css/main.ce56b475.chunk.css",
-    "main.js": "/orange/static/js/main.c567d37c.chunk.js",
-    "main.js.map": "/orange/static/js/main.c567d37c.chunk.js.map",
+    "main.js": "/orange/static/js/main.c94236dc.chunk.js",
+    "main.js.map": "/orange/static/js/main.c94236dc.chunk.js.map",
     "runtime-main.js": "/orange/static/js/runtime-main.4454f222.js",
     "runtime-main.js.map": "/orange/static/js/runtime-main.4454f222.js.map",
     "static/js/2.6cfca830.chunk.js": "/orange/static/js/2.6cfca830.chunk.js",
     "static/js/2.6cfca830.chunk.js.map": "/orange/static/js/2.6cfca830.chunk.js.map",
     "index.html": "/orange/index.html",
-    "precache-manifest.a1c9bedd6a61009956cf4e41bdc94391.js": "/orange/precache-manifest.a1c9bedd6a61009956cf4e41bdc94391.js",
+    "precache-manifest.de090550343e81754ad73ae12161f6f9.js": "/orange/precache-manifest.de090550343e81754ad73ae12161f6f9.js",
     "service-worker.js": "/orange/service-worker.js",
     "static/css/main.ce56b475.chunk.css.map": "/orange/static/css/main.ce56b475.chunk.css.map",
     "static/js/2.6cfca830.chunk.js.LICENSE.txt": "/orange/static/js/2.6cfca830.chunk.js.LICENSE.txt",
@@ -73,6 +73,6 @@
     "static/js/runtime-main.4454f222.js",
     "static/js/2.6cfca830.chunk.js",
     "static/css/main.ce56b475.chunk.css",
-    "static/js/main.c567d37c.chunk.js"
+    "static/js/main.c94236dc.chunk.js"
   ]
 }

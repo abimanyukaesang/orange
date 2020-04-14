@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b90c0ef6fcfa2025e5a52d4eaaad4e9c",
+    "revision": "d388341910ac52c400ecc6619f6feef5",
     "url": "/orange/index.html"
   },
   {
-    "revision": "bd0a78256dc5457164a7",
+    "revision": "fe59aad7dae8f00c3184",
     "url": "/orange/static/css/main.ce56b475.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/orange/static/js/2.6cfca830.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd0a78256dc5457164a7",
-    "url": "/orange/static/js/main.c567d37c.chunk.js"
+    "revision": "fe59aad7dae8f00c3184",
+    "url": "/orange/static/js/main.c94236dc.chunk.js"
   },
   {
     "revision": "8b5b629b91bc1b9ff576",
