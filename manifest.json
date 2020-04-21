@@ -19,7 +19,7 @@
           "type": "image/png"
       }
   ],
-  "start_url": "/",
+  "start_url": "https://abimanyukaesang.github.io/orange/",
   "theme_color": "#171717",
   "background_color": "#171717",
   "display": "standalone",
