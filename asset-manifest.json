@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/orange/static/css/main.ce56b475.chunk.css",
-    "main.js": "/orange/static/js/main.c94236dc.chunk.js",
-    "main.js.map": "/orange/static/js/main.c94236dc.chunk.js.map",
+    "main.css": "/orange/static/css/main.77731e9d.chunk.css",
+    "main.js": "/orange/static/js/main.5115972c.chunk.js",
+    "main.js.map": "/orange/static/js/main.5115972c.chunk.js.map",
     "runtime-main.js": "/orange/static/js/runtime-main.4454f222.js",
     "runtime-main.js.map": "/orange/static/js/runtime-main.4454f222.js.map",
-    "static/js/2.6cfca830.chunk.js": "/orange/static/js/2.6cfca830.chunk.js",
-    "static/js/2.6cfca830.chunk.js.map": "/orange/static/js/2.6cfca830.chunk.js.map",
+    "static/css/2.c3594674.chunk.css": "/orange/static/css/2.c3594674.chunk.css",
+    "static/js/2.bf63478d.chunk.js": "/orange/static/js/2.bf63478d.chunk.js",
+    "static/js/2.bf63478d.chunk.js.map": "/orange/static/js/2.bf63478d.chunk.js.map",
     "index.html": "/orange/index.html",
-    "precache-manifest.de090550343e81754ad73ae12161f6f9.js": "/orange/precache-manifest.de090550343e81754ad73ae12161f6f9.js",
+    "precache-manifest.ddfb5c7954a40582d1425072af64f83b.js": "/orange/precache-manifest.ddfb5c7954a40582d1425072af64f83b.js",
     "service-worker.js": "/orange/service-worker.js",
-    "static/css/main.ce56b475.chunk.css.map": "/orange/static/css/main.ce56b475.chunk.css.map",
-    "static/js/2.6cfca830.chunk.js.LICENSE.txt": "/orange/static/js/2.6cfca830.chunk.js.LICENSE.txt",
+    "static/css/2.c3594674.chunk.css.map": "/orange/static/css/2.c3594674.chunk.css.map",
+    "static/css/main.77731e9d.chunk.css.map": "/orange/static/css/main.77731e9d.chunk.css.map",
+    "static/js/2.bf63478d.chunk.js.LICENSE.txt": "/orange/static/js/2.bf63478d.chunk.js.LICENSE.txt",
     "static/media/achievement1.jpg": "/orange/static/media/achievement1.47a673ce.jpg",
     "static/media/achievement2.jpg": "/orange/static/media/achievement2.8b6b9e41.jpg",
     "static/media/achievement3.jpg": "/orange/static/media/achievement3.6d1a3112.jpg",
@@ -71,8 +73,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4454f222.js",
-    "static/js/2.6cfca830.chunk.js",
-    "static/css/main.ce56b475.chunk.css",
-    "static/js/main.c94236dc.chunk.js"
+    "static/css/2.c3594674.chunk.css",
+    "static/js/2.bf63478d.chunk.js",
+    "static/css/main.77731e9d.chunk.css",
+    "static/js/main.5115972c.chunk.js"
   ]
 }
